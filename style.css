@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+}
+#options{
+    padding-bottom: 10px;
+    color: blue;
+    background-color: white;
+}
+.Items{
+    display: flex; /* Enables Flexbox layout */
+      gap: 10px; /* Adds space between the inner divs */
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 10px;
+}
+.popcorn-items{
+    flex: 1; /* Allows items to grow/shrink equally */
+      min-width: 50px; /* Minimum width to prevent items from becoming too small */
+      padding: 10px;
+      background-color: #4CAF50;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+}
+input,label{
+    align:right;
+
+    width:10px;
+    height:15px;
+}
+
+
